@@ -1,0 +1,100 @@
+.cwork-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    max-width: 950px;
+    margin: 0px auto;
+    align-items: center;  
+}
+
+.cwork-container section.form p{
+    font-size: 19px;
+    padding-left: 15px;
+    text-align: left;
+    margin: 0;
+}
+
+.cwork-container section.form form .p-group{
+    display: flex;
+    justify-content: left;
+}
+
+.cwork-container section.form form .p-group p+p{
+    margin-left: 130px;
+}
+
+.cwork-container section.form form .value-group{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cwork-container section.form form p.p-value{
+    margin-left: 100px;
+}
+
+.cwork-container header p{
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cwork-container form{
+    width: 100%;
+    max-width: 400px;
+}
+
+.cwork-container form input{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.cwork-container form textarea{
+    width:100%;
+    margin-top: 2px
+}
+
+.cwork-container form button{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inp-group{
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+}
+
+.inp-group input{
+    max-width: 47%;
+}
+
+.cwork-container form div.inp-group input+input{
+    margin-left: 15px;
+}
+
+@media(max-width: 450px){
+    .cwork-container form{
+        max-width: 290px;
+    }
+    .cwork-container section.form form .p-group p+p{
+        margin-left: 100px;
+    }
+}
+
+/* Quando eu defino o tipo do input como "number" ele automaticamente 
+   cria duas setas de locomoção de números no input, com esses comandos CSS eu consigo excluí-las 
+*/
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}

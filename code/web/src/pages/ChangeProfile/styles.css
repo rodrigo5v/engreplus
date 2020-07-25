@@ -1,0 +1,62 @@
+.view-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    max-width: 950px;
+    margin: 0 auto;
+    align-items: center;  
+}
+
+.view-container section.form{
+    width: 100%;
+    max-width: 400px;
+    margin: 30px;
+    text-align: center;
+}
+
+.view-container section.form p{
+    font-size: 19px;
+    padding-left: 35px;
+    text-align: left;
+}
+
+.view-container section.form input{
+    margin-bottom: 25px;
+}
+
+.view-container form div.eye{
+    position: relative;
+}
+
+.view-container form div.eye img{
+    width: 23px;
+    height: 25px;
+    position: absolute;
+    cursor: pointer;
+    color: #000;
+    right: 35px;
+    bottom: 27px;
+    top: 34px;
+}
+
+.view-container section.form form button{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media(max-width: 450px) { 
+    .view-container section.form{
+        margin-bottom: 200px;
+    }
+
+}
+
+
+
+
+
+
+
+

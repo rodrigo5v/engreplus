@@ -1,0 +1,3 @@
+/code/backend/node_modules
+/code/web/node_modules
+/code/backend/src/database/db.sqlite

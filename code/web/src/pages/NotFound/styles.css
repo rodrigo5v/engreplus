@@ -1,0 +1,123 @@
+.wrapper-404 {
+    font-size: 100%;
+    width: 100%;
+}
+
+.headerNotFound nav a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.headerNotFound {
+    background-color: #1e272e;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+nav a {
+    line-height: 60px;
+}
+
+.back {
+    float: left;
+    margin-left: 100px;
+}
+
+.back span {
+    margin-left: 5px;
+    font-size: 20px;
+    display: flex;
+}
+
+.back button {
+    background: transparent;
+    color: #aaa;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.upper {
+    color: #aaa;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.lower {
+    color: #aaa;
+    font-size: 40px;
+    text-align: center;
+    margin: -30px 100px 30px;
+}
+
+.broken {
+    text-align: center;
+}
+
+.broken img {
+    height: 300px;
+    margin-top: -20px;
+}
+
+.btnHome {
+    background: #FF9A02;
+    display: inline-block;
+    width: 230px;
+    height: 50px;
+    border: 1px;
+    border-radius: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 450;
+    transition: filter 0.2s;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.btnHome:hover{
+     filter: brightness(80%);
+}
+
+/* media query */
+@media only screen and (max-width: 900px) {
+    .back {
+        margin-left: 40px;
+    }
+    .upper, .lower {
+        font-size: 30px;
+    }
+    .broken img {
+        height: 200px;
+        margin: 5px 0px;
+    }
+    .lower {
+        margin: 0px 40px 40px 40px;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+    .broken img {
+        height: 100px;
+        margin-top: 10px;
+    }
+    .upper {
+        font-size: 20px;
+    }
+    .lower {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .btnHome {
+        margin-top: -10px;
+    }
+}

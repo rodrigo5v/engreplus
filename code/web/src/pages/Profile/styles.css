@@ -1,0 +1,185 @@
+.bodyProfile{
+    font: 400 28px Roboto, sans-serif;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-color: #ECEBF0;
+    -webkit-font-smoothing: antialiasead; /* Melhora a fonte */
+}
+
+.topProfile{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #EAE9E8
+}
+
+.contentLeftTop{
+    width: 20%;
+}
+
+.contentRightTop{
+    width: 11%;
+    color: #000;
+    font-size: 17px;
+    padding-right: 10px;
+}
+
+.imgTop{
+    width: 50%;
+}
+
+.content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.wallMenu{
+    width: 20%;
+    height: 88vh;
+    padding-top: 15px;
+    background-color: #304651;
+}
+
+.container-itens{
+    height: 9%;
+    background-color: #304651;
+    filter: 0.2s;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+.container-itens:hover{
+    filter: brightness(85%);
+}
+
+.container-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labelWall{
+    padding-left: 5px;
+    margin-top: 19px;
+    height: 100%;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bannerTable{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 11%;
+    background-color: #548296
+}
+
+.firstSpan{
+    width: 50%;
+    height: 100%;
+}
+
+.contentRight{
+    width: 100%;
+}
+
+.spanBanner{
+    text-align: center;
+    line-height: 65px;
+    font-size:25px;
+    padding: 30px;
+}
+
+.buttonNew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+}
+
+.pButton{
+    margin-top: 7px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.buttonNew_style{
+    width: 80%;
+    height: 35px;
+    background-color: #00CC6B;
+    color: #FFFF;
+    text-decoration: none;
+    transition: filter 0.2s;
+}
+
+.buttonNew_style:hover{
+    filter: brightness(95%);
+}
+
+.tableContent {
+    width: 100%;
+    height: 51%;
+    padding: 30px;
+    overflow:auto;
+}
+
+.profileIcons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse; /* Para tirar o espaçamento da tabela */
+    text-align:center;
+    background-color: #ededed;
+}
+
+th{ 
+    height: 40px;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    color: #333333;
+    border-bottom: 1px solid  #333333;
+}
+
+td{
+    height: 40px;
+    font-size: 15px;
+    color: #333333;
+    font-weight: 450; 
+}
+
+@media(max-width:1100px){
+    .wallMenu{
+        width: 30%;
+    }
+    .buttonNew_style{
+        width: 90%;
+    } 
+}
+
+@media(max-width:850px){
+    .wallMenu{
+        width: 40%;
+    }
+
+    .spanBanner{
+        font-size:20px
+    }
+    .buttonNew_style{
+        width: 90%;
+    } 
+ }
+
+@media(max-width:450px){
+   .profileButton{
+       font-size: 9px;
+   }
+}
+
